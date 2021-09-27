@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Contact</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="" type="image/x-icon">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body style="background-image: url(contactbg.jpg);">
+        <nav>
+            <a href="index.html" >Home</a>
+            <a href="about.html" >About</a>
+            <a href="gallery.html" >Gallery</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+        
+        <div class="container">
+        <div class="wrapper3">
+            <form class="form" method="get" action="/emoji.html">
+                <h1 class="contact-title">Contact me</h1>
+                <br><br>
+                <label>First name :</label>
+                <input type="text" name="firstname" placeholder="Firstname" style="margin-left: 0.5em" required/>
+                <label style="margin-left: 0.5em;">Last name :</label>
+                <input type="text" name="lastname" placeholder="Lastname" style="margin-left: 0.5em;" required/>
+                <br><br>
+                <label style="margin-left: 0.8em;">Location :</label>
+                <input type="text" name="location" placeholder="ex. Manila City" style="margin-left: 0.5em;" required/>
+                <br><br>
+                <label style="margin-left: 1.9em;">Email :</label>
+                <input type="email" name="email" placeholder="type your email"   style="margin-left: 0.5em;" required/>
+                <br><br>
+                <label>Message me</label>
+                <br>
+                <textarea placeholder="type your message" style="width: 500px; height: 100px; margin-top: 0.7em;"></textarea>
+                <br><br>
+                <button id="submit" type="submit">Submit</button>
+                <button type="reset" onclick="Reset()">Reset</button>
+
+
+            </form>
+
+        </div>
+    </div>
+
+
+    <br><br>
+    <footer>
+            
+        <i class="fab fa-facebook-f"></i>
+        <small class="account">jhonrob24@yahoo.com</small>
+    
+        <i class="fas fa-phone-alt"></i>
+        <small class="account">+639514388853</small>
+
+        <i class="fas fa-envelope"></i>
+        <small class="account">itsmerobert0724@gmail.com</small>
+
+    </footer>
+        <script src="main.js"></script>
+    </body>
+</html>
